@@ -34,6 +34,7 @@ ast.h.pt = 8*.187;								%[ppm]
 ast.h.pd = 4.5*.187;							%[ppm]
 ast.h.ir = 3.9*.187;							%[ppm]
 ast.h.ru = 5.8*.187;							%[ppm]
+ast.h.rh = 1.1*.187;							%[ppm]
 ast.h.os = 5.2*.187;							%[ppm]
 % PGMS
 
