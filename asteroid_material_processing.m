@@ -27,15 +27,14 @@ m.total = sum(cell2mat(struct2cell(m)));	%[mT]
 
 %% H-Chondrite Concentrations (S-Type)
 
-ast.h.au = 1.1*.178;							%[ppm]
+ast.h.au = 1.1*.187;							%[ppm]
 % Gold
 
-ast.h.pt = 8*.178;								%[ppm]
-ast.h.pd = 4.5*.178;							%[ppm]
-ast.h.ir = 3.9*.178;							%[ppm]
-ast.h.ru = 5.8*.178;							%[ppm]
-ast.h.rh = 1.1*.178;							%[ppm]
-ast.h.os = 5.2*.178;							%[ppm]
+ast.h.pt = 8*.187;								%[ppm]
+ast.h.pd = 4.5*.187;							%[ppm]
+ast.h.ir = 3.9*.187;							%[ppm]
+ast.h.ru = 5.8*.187;							%[ppm]
+ast.h.os = 5.2*.187;							%[ppm]
 % PGMS
 
 ast.h.ree = 4.1;
@@ -45,15 +44,15 @@ ast.h.total = sum(cell2mat(struct2cell(ast.h)));
 
 %% LL-Chondrite Concentrations (S-Type)
 
-ast.l.au = 3.5*.178;							%[ppm]
+ast.l.au = 3.5*.0296;							%[ppm]
 % Gold
 
-ast.l.pt = 24.7*.178;							%[ppm]
-ast.l.pd = 14*.178;								%[ppm]
-ast.l.ir = 12*.178;								%[ppm]
-ast.l.ru = 17.8*.178;							%[ppm]
-ast.l.rh = 3.3*.178;							%[ppm]
-ast.l.os = 15.2*.178;							%[ppm]
+ast.l.pt = 24.7*.0296;							%[ppm]
+ast.l.pd = 14*.0296;								%[ppm]
+ast.l.ir = 12*.0296;								%[ppm]
+ast.l.ru = 17.8*.0296;							%[ppm]
+ast.l.rh = 3.3*.0296;							%[ppm]
+ast.l.os = 15.2*.0296;							%[ppm]
 % PGMS
 
 ast.l.ree = 4.1;								%[ppm]
